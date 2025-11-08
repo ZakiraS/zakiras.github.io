@@ -29,9 +29,15 @@ export const Header = () => {
             <FiMapPin className="w-5 h-5" />
             <span className="text-sm">Kuala Lumpur</span>
           </div>
-          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-300 hover:scale-105 transition-all duration-300 fade-in-up" style={{ animationDelay: '0.5s' }}>
+          <a href="https://www.linkedin.com/in/zakira-uat-testlead/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-300 hover:scale-105 transition-all duration-300 fade-in-up" style={{ animationDelay: '0.5s' }}>
             <FiLinkedin className="w-5 h-5" />
             <span className="text-sm">LinkedIn</span>
+          </a>
+        </div>
+        {/* Resume button on its own centered line */}
+        <div className="w-full flex justify-center mt-4 fade-in-up" style={{ animationDelay: '0.6s' }}>
+          <a href="/Zakira_Sikkandar_Resume.pdf" download className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-sm font-medium shadow-sm transition transform hover:scale-105">
+            Download Resume
           </a>
         </div>
       </div>
